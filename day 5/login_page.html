@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+body{
+    font-family:cursive;
+    background-color: #1a1a1a;
+    margin:0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: #eedddd;
+    padding: 50px;
+    border-radius: 9px;
+    width: 500px;
+}
+h1{
+    color: brown;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+h1:hover{
+    color: blueviolet;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form{
+display: flex;
+flex-direction:column
+}
+input{
+    border-radius: 8px;
+    padding: 10px;
+    border: radius 5px;
+    border: 1px solid rgb(52, 50, 50);
+    background-color: #e8dddd;
+    margin-bottom: 15px;
+}
+button:hover{
+    background-color: crimson;
+    color: dark black;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+padding: 10px;
+    margin: 10px;
+    border-radius: 9px;
+
+}
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>
+            login
+        </h1>
+        <form action="">
+            <input type="email" placeholder="email" required>
+            <input type="text" placeholder="first name" required>
+            <input type="text" placeholder="last name" required>
+            <input type="password" placeholder="password" required>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </form>
+    </div>
+</body>
+</html>
